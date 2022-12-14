@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twelfth &amp; James</title>
     <link rel="stylesheet" href="https://use.typekit.net/iou5itg.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 </head>
 <body>
     <p>Twelfth &amp; James is Nashville's premiere software development company.</p>

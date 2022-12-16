@@ -16,7 +16,7 @@ body {
   justify-content: center;
   margin: 2em 0 0.5em;
 }
-#header .header-logo {
+#header .header-logo img {
   width: 250px;
 }
 #introduction {

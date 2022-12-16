@@ -11,4 +11,15 @@ body {
   font-style: normal;
   font-size: 1.5em;
 }
+#header {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0.5em;
+}
+#header .header-logo {
+  width: 250px;
+}
+#introduction {
+  margin: 2em 0 0 0;
+}
 

@@ -1,11 +1,17 @@
-import react from 'react';
+import PropTypes from 'prop-types';
 
-const home = () => {
+import Hero from './hero';
+
+const Home = () => {
     return (
-        <div>
-            <p>from home.</p>
-        </div>
+        <>
+            <Hero activeText="this is the active text." />
+        </>
     )
 }
 
-export default home;
+Home.propTypes = {
+    activeText: PropTypes.string
+}
+
+export default Home;

@@ -1,11 +1,13 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
 import Header from './components/header';
+import Footer from './components/footer';
 import Home from './components/home';
+
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background: #DBD7CF;
+    background: #FFF;
   }
 `
 
@@ -15,6 +17,7 @@ const App = () => {
       <GlobalStyle />
       <Header />
       <Home />
+      <Footer />
     </div>
   )
 }

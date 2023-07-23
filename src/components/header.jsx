@@ -4,13 +4,19 @@ const HeaderWrapper = styled.div `
     padding: 1em 2em;
 `;
 
+const HeaderLogo = styled.div `
+    width: 120px;
+`;
+
 const Header = () => {
     return(
-        <div className='header'>
+        <header className='header'>
             <HeaderWrapper>
-                <h2>header</h2>
+                <HeaderLogo>
+                    <img src="./assets/img/tj-circle-drk.svg" alt="" />
+                </HeaderLogo>
             </HeaderWrapper>
-        </div>
+        </header>
     )
 }
 

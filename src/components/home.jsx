@@ -5,10 +5,17 @@ import Hero from './hero';
 const Home = () => {
     return (
         <>
-            <Hero activeText="this is the active text." />
+            <Hero activeText={activeText[0]} />
         </>
     )
 }
+
+const activeText = [
+    'creative',
+    'production',
+    'development',
+    'business'
+]
 
 Home.propTypes = {
     activeText: PropTypes.string

@@ -13,7 +13,7 @@ const Header = () => {
         <header className='header'>
             <HeaderWrapper>
                 <HeaderLogo>
-                    <img src="./assets/img/tj-circle-drk.svg" alt="" />
+                    <img src="./assets/img/tj-circle-lte.svg" alt="" />
                 </HeaderLogo>
             </HeaderWrapper>
         </header>

@@ -6,9 +6,9 @@ const FooterStyles = styled.div`
     margin: 0 2em;
 `
 
-const FooterNav = styled.div`
-    list-style: none;
-`
+// const FooterNav = styled.div`
+//     list-style: none;
+// `
 
 const Copyright = styled.p`
     font-size: 0.8em;
